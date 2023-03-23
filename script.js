@@ -17,7 +17,7 @@ function OnButtonClick(){
 
     document.getElementById("background").style.backgroundColor= rgbCode;
 
-    diameter -=100
+    diameter -=5;
     
     document.getElementById("button").style.width = diameter.toString() + "px";
     document.getElementById("button").style.height = diameter.toString() + "px";   
